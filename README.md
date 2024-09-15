@@ -28,5 +28,10 @@ I don't use Ubuntu or stock Fedora, so I will not be able to support those.
 3. Run `sudo bash debian-installer.sh`.
 
 # Packages
+## ChromiumOS (x86-64)
 - fastfetch
-5. Profit.
+## Fedora (x86-64)
+none yet
+## Debian (x86-64)
+none yet
+
