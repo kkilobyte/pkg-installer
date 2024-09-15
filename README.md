@@ -7,7 +7,7 @@ I don't use Ubuntu or stock Fedora, so I will not be able to support those.
 - chromiumOS/fedora/debian based distro - because i dont use anything else
 - non-immutable distros (except chromiumOS) will not work - apt/dnf require /bin and /usr/bin to be writable
 - sudo/root access - to install 
-- chromebrew (on chromiumOS) - (dependacies like git and unzip are installed by chromebrew)
+- chromebrew (on chromiumOS) - (dependencies like git and unzip are installed by chromebrew)
 - ability to copy and paste
 
 # Usage
@@ -29,7 +29,7 @@ I don't use Ubuntu or stock Fedora, so I will not be able to support those.
 
 # Packages
 ## ChromiumOS (x86-64)
-- fastfetch
+- fastfetch (aka flashfetch)
 ## Fedora (x86-64)
 none yet
 ## Debian (x86-64)
