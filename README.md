@@ -1,9 +1,18 @@
 # pkg-installer
 Personal package installer for ChromiumOS, Fedora, and Debian-based distros
+This only installs packages that are not present in Chromebrew, Debian 12, or Ultramarine 40.
+I don't use Ubuntu or stock Fedora, so I will not be able to support those.
+
+# Requirements
+- chromiumOS/fedora/debian based distro - because i dont use anything else
+- non-immutable distros (except chromiumOS) will not work - apt/dnf require /bin and /usr/bin to be writable
+- sudo/root access - to install 
+- chromebrew (on chromiumOS) - (dependacies like git and unzip are installed by chromebrew)
+- ability to copy and paste
 
 # Usage
 ## ChromiumOS (x86-64)
-1. Make sure you have [Chromebrew](https://chromebrew.github.io/) installed. You can skip this but remember Chromebrew/Portage setup will wipe all executables.
+1. Make sure you have [Chromebrew](https://chromebrew.github.io/) installed.
 2. Run `git clone https://github.com/kkilobyte/pkg-installer` in rather a `crosh` shell or in vt2 (`ctrl+alt+forward` or `ctrl+alt+refresh`).
 3. Run `cd pkg-installer`.
 4. Run `sudo bash chromiumos-installer.sh`.
