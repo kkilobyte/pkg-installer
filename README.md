@@ -26,4 +26,7 @@ I don't use Ubuntu or stock Fedora, so I will not be able to support those.
 1. Run `git clone https://github.com/kkilobyte/pkg-installer` in a terminal.
 2. Run `cd pkg-installer`.
 3. Run `sudo bash debian-installer.sh`.
-4. Profit.
+
+# Packages
+- fastfetch
+5. Profit.
