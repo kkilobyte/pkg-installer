@@ -1,6 +1,6 @@
 # pkg-installer
-Personal package installer for ChromiumOS, Fedora, and Debian-based distros
-This only installs packages that are not present in Chromebrew, Debian 12, or Ultramarine 40.
+Personal package installer for ChromiumOS, Fedora, and Debian-based distros. \
+This only installs packages that are not present in Chromebrew, Debian 12, or Ultramarine 40. \
 I don't use Ubuntu or stock Fedora (etc.), so I will not be able to test any issues on those.
 
 # Requirements
