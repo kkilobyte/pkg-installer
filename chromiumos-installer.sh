@@ -11,7 +11,7 @@ if [[ $(id -u) -ne 0 ]]; then
 fi
 
 # ask the user to confirm their distro
-read -p "Are you using ChromiumOS or any of it's derivatives? (y/N) " chromium_check
+read -p "Are you sure you are using ChromiumOS or any of it's derivatives? (y/N) " chromium_check
 
 # exit the script if they are not using chromium
 echo
@@ -65,5 +65,4 @@ echo
 echo "Installation of fastfetch finished."
 echo
 fastfetch
-
 

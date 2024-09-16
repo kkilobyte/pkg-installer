@@ -31,7 +31,6 @@ I don't use Ubuntu or stock Fedora, so I will not be able to support those.
 ## ChromiumOS (x86-64)
 - fastfetch (aka flashfetch)
 ## Fedora (x86-64)
-none yet
+- fastfetch (aka flashfetch)
 ## Debian (x86-64)
-none yet
-
+- fastfetch (aka flashfetch)
