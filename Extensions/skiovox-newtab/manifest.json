@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "version": "2.5",
+  "name": "Skiovox New Tab",
+  "description": "A New Tab page from the Skiovox exploit.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "/new-tab/main.html"
+  },
+  "permissions": [
+    "commands",
+    "tabs",
+    "sessions"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "/content-scripts/window-open-fix.js"
+      ],
+      "all_frames": true,
+      "run_at": "document_start"
+    }
+  ]
+}
