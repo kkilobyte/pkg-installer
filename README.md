@@ -1,7 +1,7 @@
 # pkg-installer
 Personal package installer for ChromiumOS, Fedora, and Debian-based distros
 This only installs packages that are not present in Chromebrew, Debian 12, or Ultramarine 40.
-I don't use Ubuntu or stock Fedora, so I will not be able to support those.
+I don't use Ubuntu or stock Fedora (etc.), so I will not be able to test any issues on those.
 
 # Requirements
 - chromiumOS/fedora/debian based distro - because i dont use anything else
@@ -36,3 +36,8 @@ I don't use Ubuntu or stock Fedora, so I will not be able to support those.
 ## Debian (x86-64)
 - fastfetch (aka flashfetch)
 - google-chrome-stable
+
+# Functionality
+I have been able to test on Ultramarine 40 (KDE Edition) however I won't be testing anything else. If you encounter an issue, use Github Issues or make a Pull Request.
+
+ChromeOS and Debian are also untested by me for now.
