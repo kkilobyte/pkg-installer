@@ -67,3 +67,6 @@ echo
 fastfetch
 
 # google-chrome-stable would normally be here but chromeOS liteally has chrome as the DE 
+
+# exit the script
+exit 0

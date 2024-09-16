@@ -58,3 +58,6 @@ curl -Lk https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.
 dnf in ./cache/fedora/google-chrome-stable/chrome.rpm
 echo "Installation of google-chrome-stable finished."
 echo
+
+# exit the script
+exit 0

@@ -58,3 +58,6 @@ curl -Lk https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.d
 apt install ./cache/debian/google-chrome-stable/chrome.deb
 echo "Installation of google-chrome-stable finished."
 echo
+
+# exit the script
+exit 0
