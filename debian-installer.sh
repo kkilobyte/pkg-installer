@@ -50,3 +50,11 @@ echo "Installation of fastfetch finished."
 echo
 fastfetch
 
+# begin google-chrome-stable install
+echo
+echo "Beginning google-chrome-stable installation."
+mkdir -vp cache/debian/google-chrome-stable/
+curl -Lk https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -o cache/debian/google-chrome-stable/chrome.deb
+apt install ./cache/debian/google-chrome-stable/chrome.deb
+echo "Installation of google-chrome-stable finished."
+echo

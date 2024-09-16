@@ -34,3 +34,4 @@ I don't use Ubuntu or stock Fedora, so I will not be able to support those.
 - fastfetch (aka flashfetch)
 ## Debian (x86-64)
 - fastfetch (aka flashfetch)
+- google-chrome-stable
