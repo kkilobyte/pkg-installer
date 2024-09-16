@@ -40,7 +40,8 @@ fi
 
 # begin fastfetch installation
 echo
-echo 'Beginning "fastfetch" installation.'
+echo "Beginning fastfetch' installation."
+echo
 mkdir -vp cache/debian/fastfetch/
 # we must find a method to make sure we always get the latest version without having to modify this script
 curl -Lk https://github.com/fastfetch-cli/fastfetch/releases/download/2.24.0/fastfetch-linux-amd64.deb -o cache/debian/fastfetch.deb
@@ -53,10 +54,23 @@ fastfetch
 # begin google-chrome-stable install
 echo
 echo "Beginning google-chrome-stable installation."
+echo
 mkdir -vp cache/debian/google-chrome-stable/
 curl -Lk https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -o cache/debian/google-chrome-stable/chrome.deb
 apt install ./cache/debian/google-chrome-stable/chrome.deb
+echo
 echo "Installation of google-chrome-stable finished."
+echo
+
+# vesktop installer
+echo
+echo "Beginning vesktop installation."
+echo
+mkdir -vp cache/debian/vesktop/
+curl -Lk https://github.com/Vencord/Vesktop/releases/download/v1.5.3/vesktop_1.5.3_amd64.deb -o cache/debian/vesktop/vesktop.deb
+apt install .cache/debian/vesktop/vesktop.deb
+echo
+echo "Installation of vesktop finished."
 echo
 
 # exit the script

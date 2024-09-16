@@ -40,7 +40,7 @@ fi
 
 # begin fastfetch installation
 echo
-echo 'Beginning "fastfetch" installation.'
+echo "Beginning fastfetch installation."
 mkdir -vp cache/fedora/fastfetch/
 # we must find a method to make sure we always get the latest version without having to modify this script
 curl -Lk https://github.com/fastfetch-cli/fastfetch/releases/download/2.24.0/fastfetch-linux-amd64.rpm -o cache/fedora/fastfetch.rpm
@@ -56,7 +56,18 @@ echo "Beginning google-chrome-stable installation."
 mkdir -vp cache/fedora/google-chrome-stable/
 curl -Lk https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm -o cache/fedora/google-chrome-stable/chrome.rpm
 dnf in ./cache/fedora/google-chrome-stable/chrome.rpm
+echo
 echo "Installation of google-chrome-stable finished."
+echo
+
+# vesktop installer
+echo
+echo "Beginning vesktop installation."
+mkdir -vp cache/fedora/vesktop/
+curl -Lk https://github.com/Vencord/Vesktop/releases/download/v1.5.3/vesktop-1.5.3.x86_64.rpm -o cache/fedora/vesktop/vesktop.rpm
+dnf in ./cache/fedora/vesktop/vesktop.rpm
+echo
+echo "Installation of vesktop finished."
 echo
 
 # exit the script

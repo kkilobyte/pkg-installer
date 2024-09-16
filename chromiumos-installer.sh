@@ -54,7 +54,7 @@ fi
 
 # begin fastfetch installation
 echo
-echo 'Beginning "fastfetch" installation.'
+echo "Beginning fastfetch installation."
 mkdir -vp cache/chromium/fastfetch/
 # we must find a method to make sure we always get the latest version without having to modify this script
 curl -Lk http://github.com/fastfetch-cli/fastfetch/releases/download/2.24.0/fastfetch-linux-amd64.zip -o cache/chromium/fastfetch.zip
@@ -66,7 +66,8 @@ echo "Installation of fastfetch finished."
 echo
 fastfetch
 
-# google-chrome-stable would normally be here but chromeOS liteally has chrome as the DE 
+# google-chrome-stable would normally be here but chromeOS liteally has chrome as the DE
+# vesktop would also normally be here but chromeOS is better with PWAs and crostini users should use the debian installer 
 
 # exit the script
 exit 0
