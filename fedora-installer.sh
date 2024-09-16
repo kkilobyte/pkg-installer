@@ -50,3 +50,11 @@ echo "Installation of fastfetch finished."
 echo
 fastfetch
 
+# begin google-chrome-stable install
+echo
+echo "Beginning google-chrome-stable installation."
+mkdir -vp cache/fedora/google-chrome-stable/
+curl -Lk https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm -o cache/fedora/google-chrome-stable/chrome.rpm
+dnf in ./cache/fedora/google-chrome-stable/chrome.rpm
+echo "Installation of google-chrome-stable finished."
+echo

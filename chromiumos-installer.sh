@@ -66,3 +66,4 @@ echo "Installation of fastfetch finished."
 echo
 fastfetch
 
+# google-chrome-stable would normally be here but chromeOS liteally has chrome as the DE 
